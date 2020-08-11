@@ -1,0 +1,90 @@
+body{
+background-image:url(wp4035445.jpg);
+background-size: 100%;
+}
+h1{
+text-align: center;
+margin-top: 50px;
+color:white;
+margin-left: 40%;
+font-size: 20px;
+}
+
+#solde,
+#pertes {
+  width: 15%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: black;
+  outline: none;
+  border: 3px  rgb(248, 134, 41)dashed;
+  border-bottom: 1px dotted #fff;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+#solde-text,
+#pertes-text {
+  margin-top: 2px;
+  color: white;
+  height: 2px;
+}
+
+.prenom-nom-pseudo {
+  background-color: #000;
+  color: #FFD700;
+  border-radius: 10px;
+  border: 3px #FFD700 dashed;
+  height: 20px;
+  width: 300px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#go {
+    max-width: 750px;
+    border-radius: 25px;
+    border: 3px rgb(248, 134, 41) dashed;
+    margin: auto;
+    background: rgba(3, 3, 3, 0.8);
+    padding: 40px;
+    color: #fff;
+    margin-top: 50px;
+}
+#connexion {
+    max-width: 350px;
+    border-radius: 25px;
+    border: 3px #FFD700 dashed;
+    box-shadow: 15px 15px 0px #FFFFFF;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    color: #fff;
+    margin-top: 100px;
+  }
+  
+#input-submit-casino {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px 0;
+    margin-top: 30px;
+    outline: none;
+    border: none;
+    background:rgb(248, 134, 41);
+    opacity: 0, 7;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #000;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(1, .11, .22, 1.41);
+    transition-delay: 0.001s;
+    margin-left: 25%;
+  }
+  
+.select-style select:focus {
+    outline: none;
+  }
+
+    
